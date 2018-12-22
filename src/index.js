@@ -5,20 +5,68 @@ import * as serviceWorker from './serviceWorker'
 import App from './App'
 
 const GlobalStyle = createGlobalStyle`
+
+  * {
+    outline: none;
+  }
+
   body {
+    font-family: 'Khula', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  } 
+
+  p {
+    margin: 0;
+  }
+
+  @font-face {
+    font-family: 'Font Awesome Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/fa-brands-400.eot');
+    src: url('./fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/fa-brands-400.woff2') format('woff2'), 
+         url('./fonts/fa-brands-400.woff') format('woff'), 
+         url('./fonts/fa-brands-400.ttf') format('truetype'), 
+         url('./fonts/fa-brands-400.svg#fontawesome') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Font Awesome Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/fa-light-300.eot');
+    src: url('./fonts/fa-light-300.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/fa-light-300.woff2') format('woff2'), 
+         url('./fonts/fa-light-300.woff') format('woff'), 
+         url('./fonts/fa-light-300.ttf') format('truetype'), 
+         url('./fonts/fa-light-300.svg#fontawesome') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Font Awesome Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/fa-regular-400.eot');
+    src: url('./fonts/fa-regular-400.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/fa-regular-400.woff2') format('woff2'), 
+         url('./fonts/fa-regular-400.woff') format('woff'), 
+         url('./fonts/fa-regular-400.ttf') format('truetype'), 
+         url('./fonts/fa-regular-400.svg#fontawesome') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Font Awesome Solid';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/fa-solid-900.eot');
+    src: url('./fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/fa-solid-900.woff2') format('woff2'), 
+         url('./fonts/fa-solid-900.woff') format('woff'), 
+         url('./fonts/fa-solid-900.ttf') format('truetype'), 
+         url('./fonts/fa-solid-900.svg#fontawesome') format('svg'); 
+  }
 `
 
 ReactDOM.render(

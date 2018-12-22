@@ -1,0 +1,20 @@
+{
+  "educations": ["CPE29@KMUTT", "ACU#4932"],
+  "workings": [
+    {
+      "title": "Askforanywork",
+      "duration": "June 2017 - Now",
+      "detail": "Part-Time: Full-Stack Web Development"
+    },
+    {
+      "title": "Institute of High Performance Computing in Singapore",
+      "duration": "May 2018 - Aug 2018",
+      "detail": "Internship: Big Data Analytics and Machine Learning"
+    },
+    {
+      "title": "Artificial Anything",
+      "duration": "Jul 2017",
+      "detail": "Internship: Embedded System Implementation"
+    }
+  ]
+}
