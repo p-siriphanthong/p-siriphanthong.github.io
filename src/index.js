@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Khula', sans-serif;
+    font-family: 'Khula', 'Prompt', sans-serif;
     margin: 0;
     padding: 0;
   }
