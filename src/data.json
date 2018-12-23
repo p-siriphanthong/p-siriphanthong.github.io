@@ -16,5 +16,35 @@
       "duration": "Jul 2017",
       "detail": "Internship: Embedded System Implementation"
     }
+  ],
+  "skills": [
+    {
+      "title": "Coding",
+      "detail": "Python, C, Data Structure, Algorithm, Image Processing",
+      "percent": 85,
+      "code": "\f5fc",
+      "type": "solid"
+    },
+    {
+      "title": "Web Development",
+      "detail": "React.js, Laravel, Node.js, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
+      "percent": 70,
+      "code": "\f40e",
+      "type": "regular"
+    },
+    {
+      "title": "Data Science",
+      "detail": "Keras, Neural Network, Reinforcement Learning, Decision Tree, Regression",
+      "percent": 40,
+      "code": "\f643",
+      "type": "solid"
+    },
+    {
+      "title": "Embedded system",
+      "detail": "Internet of Things, Raspberry Pi, Arduino, C, Assembly",
+      "percent": 25,
+      "code": "\f085",
+      "type": "solid"
+    }
   ]
 }

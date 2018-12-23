@@ -4,6 +4,7 @@ import styled from 'styled-components'
 // Components
 import FullScreen from '../fullscreen'
 import Topic from '../topic'
+import { Title, Duration, Detail } from '../text'
 
 const Wrapper = styled(FullScreen)`
   width: 30%;
@@ -16,19 +17,6 @@ const Wrapper = styled(FullScreen)`
 
 const Container = styled.div`
   margin: 0 0 30px;
-`
-
-const Title = styled.p``
-
-const Duration = styled.p`
-  color: #a7c7f9;
-  font-size: 0.7rem;
-`
-
-const Detail = styled.p`
-  color: #afb5bf;
-  font-size: 0.8rem;
-  margin-top: 8px;
 `
 
 class Working extends Component {

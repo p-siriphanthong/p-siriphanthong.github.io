@@ -9,10 +9,12 @@ import background from './background.jpg'
 
 const Wrapper = styled(FullScreen)`
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${background});
   background-size: cover;
+  background-position-x: right;
   width: 70%;
+  padding: 50px;
   display: inline-block;
   vertical-align: top;
 `
