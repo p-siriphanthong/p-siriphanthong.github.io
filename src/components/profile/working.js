@@ -13,10 +13,16 @@ const Wrapper = styled(FullScreen)`
   display: inline-block;
   vertical-align: top;
   position: relative;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `
 
 const Container = styled.div`
-  margin: 0 0 30px;
+  margin: 0 auto 30px;
+  width: 100%;
+  max-width: 400px;
 `
 
 class Working extends Component {

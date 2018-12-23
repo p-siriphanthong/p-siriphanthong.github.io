@@ -17,6 +17,10 @@ const Wrapper = styled(FullScreen)`
   padding: 50px;
   display: inline-block;
   vertical-align: top;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `
 
 const Container = styled.div`
