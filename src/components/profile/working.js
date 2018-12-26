@@ -4,7 +4,7 @@ import styled from 'styled-components'
 // Components
 import FullScreen from '../fullscreen'
 import Topic from '../topic'
-import { Title, Duration, Detail } from '../text'
+import { Title, Subtitle, Detail } from '../text'
 
 const Wrapper = styled(FullScreen)`
   width: 30%;
@@ -33,7 +33,7 @@ class Working extends Component {
         {this.props.workings.map((working, i) => (
           <Container key={i}>
             <Title>{working.title}</Title>
-            <Duration>{working.duration}</Duration>
+            <Subtitle>{working.duration}</Subtitle>
             <Detail>{working.detail}</Detail>
           </Container>
         ))}

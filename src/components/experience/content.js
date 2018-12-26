@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 // Components
-import { Title, Duration, Detail } from '../text'
+import { Title, Subtitle, Detail } from '../text'
 
 const Wrapper = styled.div`
   width: 50%;
@@ -30,7 +30,7 @@ class Content extends Component {
     return (
       <Wrapper position={this.props.position}>
         <Title>{this.props.title}</Title>
-        <Duration>{this.props.duration}</Duration>
+        <Subtitle>{this.props.duration}</Subtitle>
         <Detail>{this.props.detail}</Detail>
       </Wrapper>
     )

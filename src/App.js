@@ -6,6 +6,7 @@ import data from './data.json'
 import Profile from './components/profile'
 import Skill from './components/skill'
 import Experience from './components/experience'
+import Project from './components/project'
 
 const Wrapper = styled.div`
   max-width: 1920px;
@@ -19,6 +20,7 @@ class App extends Component {
         <Profile educations={data.educations} workings={data.workings} />
         <Skill skills={data.skills} />
         <Experience experiences={data.experiences} />
+        <Project projects={data.projects} />
       </Wrapper>
     )
   }

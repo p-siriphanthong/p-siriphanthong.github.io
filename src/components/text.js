@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Title = styled.p``
 
-const Duration = styled.p`
+const Subtitle = styled.p`
   color: #a7c7f9;
   font-size: 0.7rem;
 `
@@ -13,4 +13,4 @@ const Detail = styled.p`
   margin-top: 8px;
 `
 
-export { Title, Duration, Detail }
+export { Title, Subtitle, Detail }
