@@ -11,10 +11,13 @@ const Container = styled.div`
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  grid-auto-columns: minmax(50%, 1fr);
   grid-auto-rows: minmax(100px, 200px);
   grid-auto-flow: dense;
   grid-gap: 5px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 50% 50%;
+  }
 `
 
 class Gallery extends Component {

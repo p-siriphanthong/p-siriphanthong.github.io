@@ -19,6 +19,7 @@ const Wrapper = styled.div`
 
   @media (max-width: 600px) {
     width: 100%;
+    max-width: none;
     text-align: left;
     padding-left: 50px;
     left: 0;

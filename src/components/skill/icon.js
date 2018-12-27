@@ -35,12 +35,21 @@ const Wrapper = styled.div`
 
 const Font = styled.span`
   color: ${color};
-  ${props => props.type === 'brands' && `font-family: 'Font Awesome Brands';`}
-  ${props => props.type === 'light' && `font-family: 'Font Awesome Light';`}
-  ${props => props.type === 'regular' && `font-family: 'Font Awesome Regular';`}
-  ${props => props.type === 'solid' && `font-family: 'Font Awesome Solid';`}
+  ${props =>
+    props.type === 'brands' &&
+    `font-family: 'Font Awesome Brands', 'Khula', sans-serif;`}
+  ${props =>
+    props.type === 'light' &&
+    `font-family: 'Font Awesome Light', 'Khula', sans-serif;`}
+  ${props =>
+    props.type === 'regular' &&
+    `font-family: 'Font Awesome Regular', 'Khula', sans-serif;`}
+  ${props =>
+    props.type === 'solid' &&
+    `font-family: 'Font Awesome Solid', 'Khula', sans-serif;`}
   font-size: 2rem;
-  z-index: 2;
+  line-height: 2rem;
+  z-index: 1;
 
   &:before {
     content: '${props => props.code}';

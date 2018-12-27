@@ -16,27 +16,35 @@ const Wrapper = styled(FullScreen)`
 
   @media (max-width: 1000px) {
     width: 100%;
+    display: flex;
+    align-items: center;
   }
 `
 
 const Container = styled.div`
-  margin: 0 auto 30px;
   width: 100%;
   max-width: 400px;
+  margin: auto;
+`
+
+const Box = styled.div`
+  margin: 0 auto 30px;
 `
 
 class Working extends Component {
   render() {
     return (
       <Wrapper>
-        <Topic>Working</Topic>
-        {this.props.workings.map((working, i) => (
-          <Container key={i}>
-            <Title>{working.title}</Title>
-            <Subtitle>{working.duration}</Subtitle>
-            <Detail>{working.detail}</Detail>
-          </Container>
-        ))}
+        <Container>
+          <Topic>Working</Topic>
+          {this.props.workings.map((working, i) => (
+            <Box key={i}>
+              <Title>{working.title}</Title>
+              <Subtitle>{working.duration}</Subtitle>
+              <Detail>{working.detail}</Detail>
+            </Box>
+          ))}
+        </Container>
       </Wrapper>
     )
   }

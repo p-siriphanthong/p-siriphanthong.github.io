@@ -21,13 +21,26 @@ const Wrapper = styled(FullScreen)`
   @media (max-width: 1000px) {
     width: 100%;
   }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
 `
 
 const Container = styled.div`
   letter-spacing: 3px;
-  width: intrinsic;
+  width: fit-content;
+  max-width: 100%;
   padding: 30px 50px;
   position: relative;
+  box-sizing: border-box;
+
+  @media (max-width: 600px) {
+    letter-spacing: 2px;
+    padding: 20px;
+  }
 `
 
 const Border = styled.div`
@@ -59,11 +72,19 @@ const Title = styled.h1`
   font-family: 'Julius Sans One', sans-serif;
   font-size: 3.5rem;
   margin: 0 0 10px;
+
+  @media (max-width: 600px) {
+    font-size: 3rem;
+  }
 `
 
 const Detail = styled.p`
   font-size: 0.9rem;
   opacity: 0.6;
+
+  @media (max-width: 600px) {
+    font-size: 0.7rem;
+  }
 `
 
 const EducationContainer = styled.div`
@@ -78,6 +99,10 @@ const Education = styled.p`
     font-family: 'Font Awesome Light';
     content: '\f19d';
     margin-right: 7px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0.7rem;
   }
 `
 

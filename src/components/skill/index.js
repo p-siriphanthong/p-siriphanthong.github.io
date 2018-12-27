@@ -6,7 +6,13 @@ import FullScreen from '../fullscreen'
 import Topic from '../topic'
 import Box from './box'
 
+const Wrapper = styled(FullScreen)`
+  display: flex;
+  align-items: center;
+`
+
 const Container = styled.div`
+  width: 100%;
   max-width: 1000px;
   margin: auto;
 `
@@ -14,9 +20,9 @@ const Container = styled.div`
 class Skill extends Component {
   render() {
     return (
-      <FullScreen>
-        <Topic>Skills</Topic>
+      <Wrapper>
         <Container>
+          <Topic>Skills</Topic>
           {this.props.skills.map((skill, i) => (
             <Box
               key={i}
@@ -28,7 +34,7 @@ class Skill extends Component {
             />
           ))}
         </Container>
-      </FullScreen>
+      </Wrapper>
     )
   }
 }
