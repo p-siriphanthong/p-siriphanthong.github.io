@@ -9,10 +9,10 @@ const Wrapper = styled.div`
 `
 
 const Image = styled.div`
-  background: url(${props => props.url});
+  background-color: ${props => props.theme.secondary};
+  background-image: url(${props => props.url});
   background-size: cover;
   background-position: center center;
-  border: 1px solid #e8eef7;
   width: 100%;
   margin-bottom: 20px;
 

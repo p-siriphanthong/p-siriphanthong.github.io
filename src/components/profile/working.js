@@ -36,7 +36,7 @@ class Working extends Component {
     return (
       <Wrapper>
         <Container>
-          <Topic>Working</Topic>
+          <Topic shape={'square'}>Working</Topic>
           {this.props.workings.map((working, i) => (
             <Box key={i}>
               <Title>{working.title}</Title>

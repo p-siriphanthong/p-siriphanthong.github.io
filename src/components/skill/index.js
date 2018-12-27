@@ -22,7 +22,7 @@ class Skill extends Component {
     return (
       <Wrapper>
         <Container>
-          <Topic>Skills</Topic>
+          <Topic shape={'triangle-up'}>Skills</Topic>
           {this.props.skills.map((skill, i) => (
             <Box
               key={i}

@@ -16,7 +16,7 @@ class Experience extends Component {
   render() {
     return (
       <FullScreen>
-        <Topic>Experiences</Topic>
+        <Topic shape={'parallelogram'}>Experiences</Topic>
         <Container>
           {this.props.experiences.map((experience, i) => (
             <Branch

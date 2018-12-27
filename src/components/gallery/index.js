@@ -24,7 +24,7 @@ class Gallery extends Component {
   render() {
     return (
       <FullScreen>
-        <Topic>Gallery</Topic>
+        <Topic shape={'circle'}>Gallery</Topic>
         <Container>
           {this.props.gallery.map((image, i) => (
             <Box

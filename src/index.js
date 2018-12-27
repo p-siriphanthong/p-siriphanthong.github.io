@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Khula', 'Prompt', sans-serif;
+    background: rgb(249, 249, 249);
     margin: 0;
     padding: 0;
   }

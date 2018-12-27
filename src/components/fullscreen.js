@@ -10,7 +10,7 @@ const FullScreen = styled.div`
   }
 
   @media (max-width: 400px) {
-    padding: 20px;
+    padding: 50px 20px;
   }
 `
 

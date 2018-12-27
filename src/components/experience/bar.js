@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   width: 30px;
-  margin: 10px auto;
+  margin: 5px auto;
 
   @media (max-width: 600px) {
     margin: 10px 0;
@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 `
 
 const Circle = styled.div`
-  border: 8px solid #ff9955;
+  border: 8px solid ${props => props.theme.primary};
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -19,13 +19,17 @@ const Circle = styled.div`
 `
 
 const Line = styled.div`
-  background: gray;
+  background: ${props => props.theme.secondary};
   width: 5px;
   height: 100px;
   margin: 5px auto 0;
 
   @media (max-width: 600px) {
     height: 150px;
+  }
+
+  @media (max-width: 400px) {
+    height: 180px;
   }
 `
 

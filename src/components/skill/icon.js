@@ -3,11 +3,10 @@ import styled from 'styled-components'
 
 const size = 120
 const border = 15
-const hoverborder = 5
-const color = '#53777a'
+const hoverborder = 8
 
 const Wrapper = styled.div`
-  background-color: #f2e9e1;
+  background-color: rgb(244, 240, 235);
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;
@@ -34,7 +33,7 @@ const Wrapper = styled.div`
 `
 
 const Font = styled.span`
-  color: ${color};
+  color: ${props => props.theme.primary};
   ${props =>
     props.type === 'brands' &&
     `font-family: 'Font Awesome Brands', 'Khula', sans-serif;`}
@@ -71,7 +70,7 @@ const LeftClipper = styled.div`
 `
 
 const RightFiller = styled.div`
-  background-color: ${color};
+  background-color: ${props => props.theme.primary};
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;
@@ -82,7 +81,7 @@ const RightFiller = styled.div`
 const ValueBar = styled.div.attrs(props => ({
   percent: (props.percent * 360) / 100
 }))`
-  border: ${border}px solid ${color};
+  border: ${border}px solid ${props => props.theme.primary};
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;

@@ -18,7 +18,7 @@ class Project extends Component {
   render() {
     return (
       <FullScreen>
-        <Topic>Projects</Topic>
+        <Topic shape={'triangle-down'}>Projects</Topic>
         <Container>
           {this.props.projects.map((project, i) => (
             <Box
