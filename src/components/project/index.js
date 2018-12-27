@@ -27,6 +27,7 @@ class Project extends Component {
               subtitle={project.subtitle}
               detail={project.detail}
               image={project.image}
+              links={project.links}
             />
           ))}
         </Container>

@@ -84,43 +84,55 @@
       "title": "Image Restoration",
       "subtitle": "Convolutional Auto-encoders (Python)",
       "detail": "ฟื้นฟูรูปภาพเก่าที่มีสีขาว-ดําและมีสัญญาณรบกวน ให้มีสีสันขึ้น",
-      "image": "image_restoration.png"
+      "image": "image_restoration.png",
+      "links": {}
     },
     {
       "title": "Simple Thai OCR",
       "subtitle": "Image Processing (Python)",
       "detail": "แปลงรูปภาพที่มีข้อความภาษาไทยและ/หรือภาษาอังกฤษเป็นข้อความ",
-      "image": "simple_thai_ocr.png"
+      "image": "simple_thai_ocr.png",
+      "links": {
+        "github": "https://github.com/p-siriphanthong/simple-thai-ocr",
+        "medium": "https://medium.com/@p.siriphanthong/thai-optical-character-recognition-thai-ocr-การแปลงรูปภาพเป็นข้อความ-fdeede331b6d"
+      }
     },
     {
       "title": "Simple MQTT",
       "subtitle": "Computer Networks (Python)",
       "detail": "ลอง Implement การรับส่งข้อมูลแบบ MQTT (MQ Telemetry Transport)",
-      "image": "simple_thai_ocr.png"
+      "image": "simple_thai_ocr.png",
+      "links": {
+        "github": "https://github.com/p-siriphanthong/simple-mqtt"
+      }
     },
     {
       "title": "Smart Othello Board",
       "subtitle": "Embedded System (C)",
       "detail": "ส่งข้อมูลระหว่าง Atmega128 กับ TFT LCD ผ่านรูปแบบ SPI เพื่อสร้างเกม Othello",
-      "image": "smart_othello_board.png"
+      "image": "smart_othello_board.png",
+      "links": {}
     },
     {
       "title": "Propeller Clock",
       "subtitle": "Digital System (Verilog)",
       "detail": "วงจรแสดงวันและเวลาปัจจุบันแบบ Analog และ Digital ผ่านทาง LED ขณะที่ใบพัดทำการหมุน",
-      "image": "propeller_clock.jpg"
+      "image": "propeller_clock.jpg",
+      "links": {}
     },
     {
       "title": "Hello Melody",
       "subtitle": "Circuit Without Controller",
       "detail": "ระบบควบคุมเสียงดนตรีผ่านการกดแป้นตัวเลขของโทรศัพท์มือถือ",
-      "image": "hello_melody.png"
+      "image": "hello_melody.png",
+      "links": {}
     },
     {
       "title": "Third Eye for Blind",
       "subtitle": "Arduino",
       "detail": "หมวกช่วยผู้พิการทางสายตา โดยการตรวจจับวัตถุที่อยู่ข้างหน้า และแจ้งเตือนผ่านหูฟัง",
-      "image": "third_eye_for_blind.jpg"
+      "image": "third_eye_for_blind.jpg",
+      "links": {}
     }
   ],
   "gallery": [

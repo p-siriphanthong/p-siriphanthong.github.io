@@ -28,7 +28,7 @@ const Container = styled.div`
 `
 
 const Box = styled.div`
-  margin: 0 auto 30px;
+  margin: 0 auto 25px;
 `
 
 class Working extends Component {

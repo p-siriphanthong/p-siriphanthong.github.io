@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     outline: none;
+    text-decoration: none;
   }
 
   body {
