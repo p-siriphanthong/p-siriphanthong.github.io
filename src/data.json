@@ -122,5 +122,82 @@
       "detail": "หมวกช่วยผู้พิการทางสายตา โดยการตรวจจับวัตถุที่อยู่ข้างหน้า และแจ้งเตือนผ่านหูฟัง",
       "image": "third_eye_for_blind.jpg"
     }
+  ],
+  "gallery": [
+    {
+      "caption": "รับพระราชทานเหรียญรางวัลเรียนดี",
+      "src": "รับพระราชทานเหรียญรางวัลเรียนดี.jpg",
+      "mode": "vertical"
+    },
+    {
+      "caption": "CPE Drummer",
+      "src": "drummer.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Run For The Jungle วิ่งเพื่อป่าแผ่นดินเกิด",
+      "src": "run_for_the_junggle.jpg",
+      "mode": "vertical"
+    },
+    {
+      "caption": "Hack For Asean Culture Of Peace",
+      "src": "histolearn.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Joker",
+      "src": "joker.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "E-Game",
+      "src": "e_game.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "CPE RSA",
+      "src": "cpe_rsa.jpg",
+      "mode": "vertical"
+    },
+    {
+      "caption": "CodeHew Hackathon",
+      "src": "codehew.jpg",
+      "mode": "narmal"
+    },
+    {
+      "caption": "Grab Running วิ่งตัวเบา",
+      "src": "grab_running.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "Joker",
+      "src": "joker_2.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "E-Game",
+      "src": "e_game_2.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Thailand Olympiad in Informatics",
+      "src": "toi.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "ComCamp",
+      "src": "comcamp.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "CPE RSA",
+      "src": "cpe_rsa_2.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Taekwondo",
+      "src": "taekwondo.jpg",
+      "mode": "normal"
+    }
   ]
 }
