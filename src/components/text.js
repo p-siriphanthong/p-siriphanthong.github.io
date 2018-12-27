@@ -19,7 +19,6 @@ const Icon = styled.a.attrs({
   target: '_blank'
 })`
   color: ${props => props.theme.icon};
-  font-family: 'Font Awesome Brands';
   margin-right: 8px;
 
   &:hover {
@@ -27,22 +26,37 @@ const Icon = styled.a.attrs({
   }
 `
 
+const Url = styled(Icon)`
+  font-family: 'Font Awesome Regular';
+  font-size: 0.9rem;
+
+  &:before {
+    content: '\f0c1';
+  }
+`
+
 const Github = styled(Icon)`
+  font-family: 'Font Awesome Brands';
+
   &:before {
     content: '\f09b';
   }
 `
 
 const Youtube = styled(Icon)`
+  font-family: 'Font Awesome Brands';
+
   &:before {
     content: '\f167';
   }
 `
 
 const Medium = styled(Icon)`
+  font-family: 'Font Awesome Brands';
+
   &:before {
     content: '\f3c7';
   }
 `
 
-export { Title, Subtitle, Detail, Github, Youtube, Medium }
+export { Title, Subtitle, Detail, Url, Github, Youtube, Medium }
