@@ -2,7 +2,17 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 // Components
-import { Title, Subtitle, Detail, Url, Github, Youtube, Medium } from '../text'
+import {
+  Title,
+  Subtitle,
+  Detail,
+  Url,
+  Github,
+  Youtube,
+  Medium,
+  AppStore,
+  GooglePlay
+} from '../text'
 
 const Wrapper = styled.div`
   padding-bottom: 20px;
@@ -40,6 +50,12 @@ class Box extends Component {
         ) : null}
         {this.props.links.medium ? (
           <Medium href={this.props.links.medium} />
+        ) : null}
+        {this.props.links.appstore ? (
+          <AppStore href={this.props.links.appstore} />
+        ) : null}
+        {this.props.links.googleplay ? (
+          <GooglePlay href={this.props.links.googleplay} />
         ) : null}
       </Wrapper>
     )

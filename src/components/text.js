@@ -59,4 +59,31 @@ const Medium = styled(Icon)`
   }
 `
 
-export { Title, Subtitle, Detail, Url, Github, Youtube, Medium }
+const AppStore = styled(Icon)`
+  font-family: 'Font Awesome Brands';
+
+  &:before {
+    content: '\f36f';
+  }
+`
+
+const GooglePlay = styled(Icon)`
+  font-family: 'Font Awesome Brands';
+  font-size: 0.9rem;
+
+  &:before {
+    content: '\f3ab';
+  }
+`
+
+export {
+  Title,
+  Subtitle,
+  Detail,
+  Url,
+  Github,
+  Youtube,
+  Medium,
+  AppStore,
+  GooglePlay
+}
