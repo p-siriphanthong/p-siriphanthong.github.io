@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี.6f3a0ed7.jpg"
   },
   {
-    "revision": "91be0f8e568288d31f9e66b8cf884316",
+    "revision": "ee5c7f435d7c5225281a54efbcc046d6",
     "url": "/index.html"
   }
 ];
