@@ -31,8 +31,7 @@ const Wrapper = styled.div`
     transition: all 0.2s ease-in-out;
   }
 
-  &:hover:after,
-  &:active:after {
+  &:hover:after {
     width: ${size - hoverborder}px;
     height: ${size - hoverborder}px;
   }
@@ -61,8 +60,7 @@ const Font = styled.span`
     transition: all 0.2s ease-in-out;
   }
 
-  ${Wrapper}:hover &:before, 
-  ${Wrapper}:active &:before {
+  ${Wrapper}:hover &:before {
       content: '${props => props.percent}%';
       font-size: 2.2rem;
   }

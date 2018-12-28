@@ -21,8 +21,7 @@ const Icon = styled.a.attrs({
   color: ${props => props.theme.icon};
   margin-right: 8px;
 
-  &:hover,
-  &:active {
+  &:hover {
     color: ${props => props.theme.primary};
   }
 `
