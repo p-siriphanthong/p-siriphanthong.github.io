@@ -81,6 +81,27 @@
   ],
   "projects": [
     {
+      "title": "Braille Dot",
+      "subtitle": "Website (React.js & Node.js)",
+      "detail": "เว็บไซต์เรียนรู้อักษรเบรลล์ภาษาอังกฤษ",
+      "image": "brailledot.png",
+      "links": {
+        "url": "https://brailledot.herokuapp.com",
+        "github": "https://github.com/p-siriphanthong/ywc-16"
+      }
+    },
+    {
+      "title": "Histolearn",
+      "subtitle": "Unity & Adobe After Effect",
+      "detail": "การเรียนประวัติศาสตร์ร่วมรากอุษาคเนย์ผ่านเทคโนโลยี Augmented Reality (AR)",
+      "image": "histolearn.png",
+      "links": {
+        "youtube": "https://www.youtube.com/watch?v=dvClnmsU8pE",
+        "appstore": "https://itunes.apple.com/th/app/histolearn/id1438288627",
+        "googleplay": "https://play.google.com/store/apps/details?id=com.histolearnunesco.firebase"
+      }
+    },
+    {
       "title": "Image Restoration",
       "subtitle": "Convolutional Auto-encoders (Python)",
       "detail": "ฟื้นฟูรูปภาพเก่าที่มีสีขาว-ดําและมีสัญญาณรบกวน ให้มีสีสันขึ้น",
@@ -101,9 +122,18 @@
       "title": "Simple MQTT",
       "subtitle": "Computer Networks (Python)",
       "detail": "ลอง Implement การรับส่งข้อมูลแบบ MQTT (MQ Telemetry Transport)",
-      "image": "simple_thai_ocr.png",
+      "image": "mqtt.png",
       "links": {
         "github": "https://github.com/p-siriphanthong/simple-mqtt"
+      }
+    },
+    {
+      "title": "TCAS of CPE KMUTT",
+      "subtitle": "Website (PHP)",
+      "detail": "ระบบคัดเลือกบุคคลเข้าศึกษาภาควิชาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "image": "tcas.png",
+      "links": {
+        "url": "https://tcas.cpe.kmutt.ac.th"
       }
     },
     {
