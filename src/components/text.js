@@ -26,7 +26,9 @@ const Icon = styled.a.attrs({
   }
 `
 
-const Url = styled(Icon)`
+const Url = styled(Icon).attrs({
+  title: 'Link'
+})`
   font-family: 'Font Awesome Regular';
   font-size: 0.9rem;
 
@@ -35,7 +37,9 @@ const Url = styled(Icon)`
   }
 `
 
-const Github = styled(Icon)`
+const Github = styled(Icon).attrs({
+  title: 'GitHub'
+})`
   font-family: 'Font Awesome Brands';
 
   &:before {
@@ -43,7 +47,9 @@ const Github = styled(Icon)`
   }
 `
 
-const Youtube = styled(Icon)`
+const Youtube = styled(Icon).attrs({
+  title: 'Youtube'
+})`
   font-family: 'Font Awesome Brands';
 
   &:before {
@@ -51,7 +57,9 @@ const Youtube = styled(Icon)`
   }
 `
 
-const Medium = styled(Icon)`
+const Medium = styled(Icon).attrs({
+  title: 'Medium'
+})`
   font-family: 'Font Awesome Brands';
 
   &:before {
@@ -59,7 +67,9 @@ const Medium = styled(Icon)`
   }
 `
 
-const AppStore = styled(Icon)`
+const AppStore = styled(Icon).attrs({
+  title: 'App Store'
+})`
   font-family: 'Font Awesome Brands';
 
   &:before {
@@ -67,7 +77,9 @@ const AppStore = styled(Icon)`
   }
 `
 
-const GooglePlay = styled(Icon)`
+const GooglePlay = styled(Icon).attrs({
+  title: 'Google Play'
+})`
   font-family: 'Font Awesome Brands';
   font-size: 0.9rem;
 
