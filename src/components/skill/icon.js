@@ -22,7 +22,12 @@ const Wrapper = styled.div`
     border-radius: 50%;
     width: ${size - border}px;
     height: ${size - border}px;
+    margin: auto;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     transition: all 0.2s ease-in-out;
   }
 
@@ -65,7 +70,12 @@ const LeftClipper = styled.div`
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;
+  margin: auto;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   clip: rect(0, ${size}px, ${size}px, ${size / 2}px);
 `
 
@@ -74,7 +84,12 @@ const RightFiller = styled.div`
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;
+  margin: auto;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   clip: rect(0, ${size}px, ${size}px, ${size / 2}px);
 `
 
@@ -85,7 +100,12 @@ const ValueBar = styled.div.attrs(props => ({
   border-radius: 50%;
   width: ${size}px;
   height: ${size}px;
+  margin: auto;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   box-sizing: border-box;
   clip: rect(0, ${size / 2}px, ${size}px, 0);
   transform: rotate(${props => props.percent}deg);
