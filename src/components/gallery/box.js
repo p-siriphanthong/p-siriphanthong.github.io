@@ -18,7 +18,9 @@ const Wrapper = styled.div`
   overflow: hidden;
 `
 
-const Image = styled.img`
+const Image = styled.img.attrs({
+  onClick: void 0
+})`
   width: 100%;
   height: 100%;
   position: absolute;
@@ -33,7 +35,9 @@ const Image = styled.img`
   }
 `
 
-const Caption = styled.div`
+const Caption = styled.div.attrs({
+  onClick: void 0
+})`
   color: white;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;

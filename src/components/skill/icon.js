@@ -5,7 +5,9 @@ const size = 120
 const border = 15
 const hoverborder = 8
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.attrs({
+  onClick: void 0
+})`
   background-color: rgb(244, 240, 235);
   border-radius: 50%;
   width: ${size}px;
@@ -37,7 +39,9 @@ const Wrapper = styled.div`
   }
 `
 
-const Font = styled.span`
+const Font = styled.span.attrs({
+  onClick: void 0
+})`
   color: ${props => props.theme.primary};
   ${props =>
     props.type === 'brands' &&
