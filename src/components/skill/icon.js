@@ -39,9 +39,7 @@ const Wrapper = styled.div.attrs({
   }
 `
 
-const Font = styled.span.attrs({
-  onClick: 'void(0)'
-})`
+const Font = styled.span`
   color: ${props => props.theme.primary};
   ${props =>
     props.type === 'brands' &&

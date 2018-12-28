@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.attrs({
+  onClick: 'void(0)'
+})`
   ${props =>
     props.mode === 'vertical' &&
     `grid-row-start: span 2; grid-column-start: span 1;`}
@@ -18,9 +20,7 @@ const Wrapper = styled.div`
   overflow: hidden;
 `
 
-const Image = styled.img.attrs({
-  onClick: 'void(0)'
-})`
+const Image = styled.img`
   width: 100%;
   height: 100%;
   position: absolute;
@@ -35,9 +35,7 @@ const Image = styled.img.attrs({
   }
 `
 
-const Caption = styled.div.attrs({
-  onClick: 'void(0)'
-})`
+const Caption = styled.div`
   color: white;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
