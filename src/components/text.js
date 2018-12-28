@@ -16,13 +16,13 @@ const Detail = styled.p`
 `
 
 const Icon = styled.a.attrs({
-  target: '_blank',
-  onclick: 'void(0)'
+  target: '_blank'
 })`
   color: ${props => props.theme.icon};
   margin-right: 8px;
 
-  &:hover {
+  &:hover,
+  &:active {
     color: ${props => props.theme.primary};
   }
 `

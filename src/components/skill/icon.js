@@ -5,9 +5,7 @@ const size = 120
 const border = 15
 const hoverborder = 8
 
-const Wrapper = styled.div.attrs({
-  onclick: 'void(0)'
-})`
+const Wrapper = styled.div`
   background-color: rgb(244, 240, 235);
   border-radius: 50%;
   width: ${size}px;
@@ -33,7 +31,8 @@ const Wrapper = styled.div.attrs({
     transition: all 0.2s ease-in-out;
   }
 
-  &:hover:after {
+  &:hover:after,
+  &:active:after {
     width: ${size - hoverborder}px;
     height: ${size - hoverborder}px;
   }
@@ -62,7 +61,8 @@ const Font = styled.span`
     transition: all 0.2s ease-in-out;
   }
 
-  ${Wrapper}:hover &:before {
+  ${Wrapper}:hover &:before, 
+  ${Wrapper}:active &:before {
       content: '${props => props.percent}%';
       font-size: 2.2rem;
   }

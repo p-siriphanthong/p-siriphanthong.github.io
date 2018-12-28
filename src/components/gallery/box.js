@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.div.attrs({
-  onclick: 'void(0)'
-})`
+const Wrapper = styled.div`
   ${props =>
     props.mode === 'vertical' &&
     `grid-row-start: span 2; grid-column-start: span 1;`}
@@ -30,7 +28,8 @@ const Image = styled.img`
   object-fit: cover;
   transition: all 0.3s ease-in-out;
 
-  ${Wrapper}:hover & {
+  ${Wrapper}:hover &,
+  ${Wrapper}:active & {
     transform: scale(1.1);
   }
 `
@@ -52,7 +51,8 @@ const Caption = styled.div`
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 
-  ${Wrapper}:hover & {
+  ${Wrapper}:hover &,
+  ${Wrapper}:active & {
     opacity: 1;
   }
 `
