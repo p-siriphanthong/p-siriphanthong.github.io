@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 `
 
 const Image = styled.img.attrs({
-  onClick: void 0
+  onClick: 'void(0)'
 })`
   width: 100%;
   height: 100%;
@@ -36,7 +36,7 @@ const Image = styled.img.attrs({
 `
 
 const Caption = styled.div.attrs({
-  onClick: void 0
+  onClick: 'void(0)'
 })`
   color: white;
   background: rgba(0, 0, 0, 0.6);

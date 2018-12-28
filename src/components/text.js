@@ -17,7 +17,7 @@ const Detail = styled.p`
 
 const Icon = styled.a.attrs({
   target: '_blank',
-  onClick: void 0
+  onClick: 'void(0)'
 })`
   color: ${props => props.theme.icon};
   margin-right: 8px;

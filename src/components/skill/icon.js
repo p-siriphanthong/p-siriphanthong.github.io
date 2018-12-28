@@ -6,7 +6,7 @@ const border = 15
 const hoverborder = 8
 
 const Wrapper = styled.div.attrs({
-  onClick: void 0
+  onClick: 'void(0)'
 })`
   background-color: rgb(244, 240, 235);
   border-radius: 50%;
@@ -40,7 +40,7 @@ const Wrapper = styled.div.attrs({
 `
 
 const Font = styled.span.attrs({
-  onClick: void 0
+  onClick: 'void(0)'
 })`
   color: ${props => props.theme.primary};
   ${props =>
