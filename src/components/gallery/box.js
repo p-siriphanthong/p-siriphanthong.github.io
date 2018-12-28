@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.attrs({
+  onclick: 'void(0)'
+})`
   ${props =>
     props.mode === 'vertical' &&
     `grid-row-start: span 2; grid-column-start: span 1;`}

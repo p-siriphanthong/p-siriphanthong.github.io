@@ -5,7 +5,9 @@ const size = 120
 const border = 15
 const hoverborder = 8
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.attrs({
+  onclick: 'void(0)'
+})`
   background-color: rgb(244, 240, 235);
   border-radius: 50%;
   width: ${size}px;
