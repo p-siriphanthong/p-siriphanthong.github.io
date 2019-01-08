@@ -1,15 +1,24 @@
 import React, { Component } from 'react'
 import styled, { keyframes } from 'styled-components'
 
+// Images
+import logo from './logo.png'
+
 const delay = 1000
 const animation = 1200
 const transition = 800
 
 const headAnimation = keyframes`
-  0% { transform: translate(0%) scaleX(0) }
-  25% { transform: translate(0%) scaleX(0.5) }
-  50% { transform: translate(25%) scaleX(0.75) }
-  100% { transform: translate(100%) scaleX(0) }
+  0% { transform: translate(0%) scaleX(0); }
+  25% { transform: translate(0%) scaleX(0.5); }
+  50% { transform: translate(25%) scaleX(0.75); }
+  100% { transform: translate(100%) scaleX(0); }
+`
+
+const logoAnimation = keyframes`
+  0% { transform: scale(1); }
+  50% { transform: scale(0.97); }
+  100% { transform: scale(1); }
 `
 
 const Wrapper = styled.div`
@@ -43,6 +52,20 @@ const Head = styled.div`
   animation: ${headAnimation} ${animation}ms linear infinite;
 `
 
+const Logo = styled.img.attrs({
+  src: logo
+})`
+  width: 120px;
+  margin: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  animation: ${logoAnimation} 0.8s ease-in-out infinite;
+`
+
 class Loading extends Component {
   constructor(props) {
     super(props)
@@ -60,6 +83,7 @@ class Loading extends Component {
         <Bar>
           <Head />
         </Bar>
+        <Logo />
       </Wrapper>
     )
   }
