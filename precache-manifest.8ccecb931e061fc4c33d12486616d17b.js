@@ -1,15 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "054d9ccc933dba3384ad",
-    "url": "/static/js/main.054d9ccc.chunk.js"
+    "revision": "f791ab0d95e2f62c3129",
+    "url": "/static/js/main.f791ab0d.chunk.js"
   },
   {
-    "revision": "e463f6c0f2e59b7df253",
-    "url": "/static/js/1.e463f6c0.chunk.js"
+    "revision": "50f35a22677f2e37fa1e",
+    "url": "/static/js/1.50f35a22.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "d5a1847344535438acbd77d9de66a54d",
+    "url": "/static/media/logo.d5a18473.png"
   },
   {
     "revision": "f146cd0e568305ad8f38d0532e6c2dcf",
@@ -120,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี.6f3a0ed7.jpg"
   },
   {
-    "revision": "c2d4a4fda3309462f36106df294a7d1f",
+    "revision": "7f4f8bafe24f17c8c4ef1c10d9cb6f65",
     "url": "/index.html"
   }
 ];
