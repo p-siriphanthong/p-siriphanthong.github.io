@@ -4,6 +4,7 @@ import data from './data.json'
 import theme from './theme'
 
 // Components
+import Loading from './components/loading'
 import Profile from './components/profile'
 import Skill from './components/skill'
 import Experience from './components/experience'
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <Wrapper>
+          <Loading />
           <Profile educations={data.educations} workings={data.workings} />
           <Skill skills={data.skills} />
           <Experience experiences={data.experiences} />
