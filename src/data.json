@@ -177,8 +177,8 @@
       "mode": "horizontal"
     },
     {
-      "caption": "Run For The Jungle วิ่งเพื่อป่าแผ่นดินเกิด",
-      "src": "run_for_the_junggle.jpg",
+      "caption": "ชัก...อยากจะวิ่ง Run For Epilepsy",
+      "src": "run_for_epilepsy.jpg",
       "mode": "vertical"
     },
     {
@@ -192,14 +192,19 @@
       "mode": "normal"
     },
     {
-      "caption": "E-Game",
-      "src": "e_game.jpg",
-      "mode": "horizontal"
+      "caption": "Run For The Jungle วิ่งเพื่อป่าแผ่นดินเกิด",
+      "src": "run_for_the_junggle.jpg",
+      "mode": "vertical"
     },
     {
       "caption": "CPE RSA",
       "src": "cpe_rsa.jpg",
       "mode": "vertical"
+    },
+    {
+      "caption": "E-Game",
+      "src": "e_game.jpg",
+      "mode": "horizontal"
     },
     {
       "caption": "CodeHew Hackathon",
