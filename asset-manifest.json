@@ -1,6 +1,6 @@
 {
-  "main.js": "/static/js/main.f791ab0d.chunk.js",
-  "main.js.map": "/static/js/main.f791ab0d.chunk.js.map",
+  "main.js": "/static/js/main.bfee503e.chunk.js",
+  "main.js.map": "/static/js/main.bfee503e.chunk.js.map",
   "static/js/1.50f35a22.chunk.js": "/static/js/1.50f35a22.chunk.js",
   "static/js/1.50f35a22.chunk.js.map": "/static/js/1.50f35a22.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -28,12 +28,16 @@
   "static/media/histolearn.jpg": "/static/media/histolearn.c4ae72f7.jpg",
   "static/media/joker.jpg": "/static/media/joker.a51e447a.jpg",
   "static/media/joker_2.jpg": "/static/media/joker_2.f4871c2e.jpg",
+  "static/media/nsc.jpg": "/static/media/nsc.e23a9fad.jpg",
   "static/media/run_for_epilepsy.jpg": "/static/media/run_for_epilepsy.2c69fb03.jpg",
   "static/media/run_for_the_junggle.jpg": "/static/media/run_for_the_junggle.6b647a08.jpg",
   "static/media/taekwondo.jpg": "/static/media/taekwondo.f138c459.jpg",
   "static/media/toi.jpg": "/static/media/toi.66c0143a.jpg",
-  "static/media/รับพระราชทานเหรียญรางวัลเรียนดี.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี.6f3a0ed7.jpg",
+  "static/media/vingboon_ubon.jpg": "/static/media/vingboon_ubon.d7daf0f1.jpg",
+  "static/media/รับพระราชทานเหรียญรางวัลเรียนดี.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี.d75a0eab.jpg",
+  "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.cf4e4334.jpg",
+  "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.6f3a0ed7.jpg",
   "index.html": "/index.html",
-  "precache-manifest.8ccecb931e061fc4c33d12486616d17b.js": "/precache-manifest.8ccecb931e061fc4c33d12486616d17b.js",
+  "precache-manifest.72c6c5b24f3bf3cd7b5af0c3bff8481d.js": "/precache-manifest.72c6c5b24f3bf3cd7b5af0c3bff8481d.js",
   "service-worker.js": "/service-worker.js"
 }
