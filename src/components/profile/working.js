@@ -8,8 +8,7 @@ import { Title, Subtitle, Detail } from '../text'
 
 const Wrapper = styled(FullScreen)`
   width: 30%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
   display: inline-block;
   vertical-align: top;
   position: relative;

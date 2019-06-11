@@ -2,8 +2,13 @@
   "educations": ["CPE29@KMUTT", "ACU#4932"],
   "workings": [
     {
+      "title": "AppMan Co., Ltd.",
+      "duration": "Jun 2019 - Now",
+      "detail": "Full-Time: Software Engineer (Frontend)"
+    },
+    {
       "title": "Askforanywork",
-      "duration": "June 2017 - Now",
+      "duration": "June 2017 - Mar 2019",
       "detail": "Part-Time: Full-Stack Web Development"
     },
     {
@@ -19,18 +24,18 @@
   ],
   "skills": [
     {
-      "title": "Coding",
-      "detail": "Python, C, Data Structure, Algorithm, Image Processing",
-      "percent": 85,
-      "code": "\f5fc",
-      "type": "solid"
-    },
-    {
       "title": "Web Development",
       "detail": "React.js, Laravel, Node.js, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
-      "percent": 70,
+      "percent": 85,
       "code": "\f40e",
       "type": "regular"
+    },
+    {
+      "title": "Coding",
+      "detail": "Python, C, Data Structure, Algorithm, Image Processing",
+      "percent": 70,
+      "code": "\f5fc",
+      "type": "solid"
     },
     {
       "title": "Data Science",
