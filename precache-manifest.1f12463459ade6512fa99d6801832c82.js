@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e51c5b71802c432ce2c8b3c9b05c921",
+    "revision": "fe447bd1b5a5993aeb232cd9511fe1be",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.094b6d59.chunk.js"
   },
   {
-    "revision": "8e79a300db0585036ce8",
-    "url": "/static/js/main.ef21e6e6.chunk.js"
+    "revision": "602d5e2dad253e31999f",
+    "url": "/static/js/main.2be76793.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -110,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "555da8135b8c624f995cd96fbfb5f38b",
     "url": "/static/media/smart_othello_board.555da813.png"
+  },
+  {
+    "revision": "d687f5c35915028c62a187d1ff64e731",
+    "url": "/static/media/spot-the-difference.d687f5c3.png"
   },
   {
     "revision": "f138c459ad2ba187197f1c2f868d95c0",
