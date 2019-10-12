@@ -86,6 +86,16 @@
   ],
   "projects": [
     {
+      "title": "Thai Checkers Game",
+      "subtitle": "Website (React.js & MobX)",
+      "detail": "เกมหมากฮอส",
+      "image": "thai-checkers-game.png",
+      "links": {
+        "url": "https://p-siriphanthong.github.io/thai-checkers-game/",
+        "github": "https://github.com/p-siriphanthong/thai-checkers-game"
+      }
+    },
+    {
       "title": "Braille Dot",
       "subtitle": "Website (React.js & Node.js)",
       "detail": "เว็บไซต์เรียนรู้อักษรเบรลล์ภาษาอังกฤษ",
