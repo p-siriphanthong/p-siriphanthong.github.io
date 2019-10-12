@@ -86,6 +86,16 @@
   ],
   "projects": [
     {
+      "title": "Spot The Difference",
+      "subtitle": "Website (HTML & CSS & JS)",
+      "detail": "The game to find the different characters in 60 seconds",
+      "image": "spot-the-difference.png",
+      "links": {
+        "url": "https://p-siriphanthong.github.io/spot-the-difference/",
+        "github": "https://github.com/p-siriphanthong/spot-the-difference"
+      }
+    },
+    {
       "title": "Thai Checkers Game",
       "subtitle": "Website (React.js & MobX)",
       "detail": "เกมหมากฮอส",
