@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe447bd1b5a5993aeb232cd9511fe1be",
+    "revision": "c78756cf3bd0c0cd8d43fef31e808c08",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.094b6d59.chunk.js"
   },
   {
-    "revision": "602d5e2dad253e31999f",
-    "url": "/static/js/main.2be76793.chunk.js"
+    "revision": "93ac4b41506a97df0b4d",
+    "url": "/static/js/main.9d76f035.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/joker_2.f4871c2e.jpg"
   },
   {
+    "revision": "eff9be0d887c88febe6190a20488ac98",
+    "url": "/static/media/lamphun_half_marathon.eff9be0d.jpg"
+  },
+  {
     "revision": "d5a1847344535438acbd77d9de66a54d",
     "url": "/static/media/logo.d5a18473.png"
   },
@@ -92,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nsc.e23a9fad.jpg"
   },
   {
+    "revision": "709167d5587f561d284c099a6496a9e3",
+    "url": "/static/media/nyne.709167d5.png"
+  },
+  {
     "revision": "be0b0b968631e6cfa9625e999e62fa84",
     "url": "/static/media/propeller_clock.be0b0b96.jpg"
   },
@@ -102,6 +110,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6b647a0817b26c6f20cdacb2ff4ae587",
     "url": "/static/media/run_for_the_junggle.6b647a08.jpg"
+  },
+  {
+    "revision": "388be749803ed47d6b1dc4e2a604fcac",
+    "url": "/static/media/siif.388be749.jpg"
+  },
+  {
+    "revision": "e09aae69f67d5f3065c599b75b5f4d99",
+    "url": "/static/media/siif_2.e09aae69.jpg"
+  },
+  {
+    "revision": "284691fbde7b61a608d6df162caea7e0",
+    "url": "/static/media/siif_3.284691fb.jpg"
   },
   {
     "revision": "2b86a3f3ee43832cd669e6f7167e6e57",
