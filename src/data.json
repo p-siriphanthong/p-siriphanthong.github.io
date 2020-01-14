@@ -2,9 +2,14 @@
   "educations": ["CPE29@KMUTT", "ACU#4932"],
   "workings": [
     {
+      "title": "Senna Labs Company Limited",
+      "duration": "Nov 2019 - Now",
+      "detail": "Full-Time: Full-Stack Developer"
+    },
+    {
       "title": "AppMan Co., Ltd.",
-      "duration": "Jun 2019 - Now",
-      "detail": "Full-Time: Software Engineer (Frontend)"
+      "duration": "Jun 2019 - Oct 2019",
+      "detail": "Full-Time: Frontend Developer"
     },
     {
       "title": "Askforanywork",
@@ -25,7 +30,7 @@
   "skills": [
     {
       "title": "Web Development",
-      "detail": "React.js, Laravel, Node.js, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
+      "detail": "React.js, React Native, Node.js, Django, Laravel, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
       "percent": 85,
       "code": "\f40e",
       "type": "regular"
@@ -53,6 +58,11 @@
     }
   ],
   "experiences": [
+    {
+      "title": "Seoul International Invention Fair 2019",
+      "duration": "27 Nov 2019 - 30 Nov 2019",
+      "detail": "ได้รับรางวัล Gold Prize และรางวัล Special Award จากประเทศไต้หวัน"
+    },
     {
       "title": "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครัั้งที่ 21 (NSC 2019)",
       "duration": "15 Mar 2019",
@@ -85,6 +95,13 @@
     }
   ],
   "projects": [
+    {
+      "title": "Nyne",
+      "subtitle": "Hardware & Machine Learning",
+      "detail": "เครื่องตรวจต้อกระจกอัจฉริยะ",
+      "image": "nyne.png",
+      "links": {}
+    },
     {
       "title": "Spot The Difference",
       "subtitle": "Website (HTML & CSS & JS)",
@@ -192,6 +209,21 @@
   ],
   "gallery": [
     {
+      "caption": "Seoul International Invention Fair 2019",
+      "src": "siif.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Seoul International Invention Fair 2019",
+      "src": "siif_2.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "Seoul International Invention Fair 2019",
+      "src": "siif_3.jpg",
+      "mode": "normal"
+    },
+    {
       "caption": "รับพระราชทานเหรียญรางวัลเรียนดี",
       "src": "รับพระราชทานเหรียญรางวัลเรียนดี.jpg",
       "mode": "horizontal"
@@ -199,17 +231,22 @@
     {
       "caption": "รับพระราชทานเหรียญรางวัลเรียนดี",
       "src": "รับพระราชทานเหรียญรางวัลเรียนดี_2.jpg",
-      "mode": "narmal"
-    },
-    {
-      "caption": "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครัั้งที่ 21 (NSC 2019)",
-      "src": "nsc.jpg",
-      "mode": "horizontal"
+      "mode": "normal"
     },
     {
       "caption": "รับพระราชทานเหรียญรางวัลเรียนดี",
       "src": "รับพระราชทานเหรียญรางวัลเรียนดี_3.jpg",
       "mode": "vertical"
+    },
+    {
+      "caption": "Lamphun Half Marathon 2019",
+      "src": "lamphun_half_marathon.jpg",
+      "mode": "normal"
+    },
+    {
+      "caption": "การแข่งขันพัฒนาโปรแกรมคอมพิวเตอร์แห่งประเทศไทย ครัั้งที่ 21 (NSC 2019)",
+      "src": "nsc.jpg",
+      "mode": "horizontal"
     },
     {
       "caption": "CPE Drummer",
@@ -254,7 +291,7 @@
     {
       "caption": "CodeHew Hackathon",
       "src": "codehew.jpg",
-      "mode": "narmal"
+      "mode": "normal"
     },
     {
       "caption": "Grab Running วิ่งตัวเบา",
