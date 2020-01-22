@@ -96,6 +96,16 @@
   ],
   "projects": [
     {
+      "title": "FoodRandom",
+      "subtitle": "Website (React.js & Node.js & GraphQL & MongoDB)",
+      "detail": "Have a hard time choosing what to eat? Use FoodRandom!",
+      "image": "food-random.png",
+      "links": {
+        "url": "https://food-random-cleverse.herokuapp.com/",
+        "github": "https://github.com/p-siriphanthong/food-random"
+      }
+    },
+    {
       "title": "Nyne",
       "subtitle": "Hardware & Machine Learning",
       "detail": "เครื่องตรวจต้อกระจกอัจฉริยะ",
