@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f98bb4862cf9b13a1f167952f07093de",
+    "revision": "8d98dbd56b9725e21f4fc56ef53ae5e7",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.094b6d59.chunk.js"
   },
   {
-    "revision": "5ef11e99d9d4c5a6947d",
-    "url": "/static/js/main.60f935cb.chunk.js"
+    "revision": "f0fe932c7235bbfebc3b",
+    "url": "/static/js/main.6e04f6f3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4db5017759ee3cb8291a41d6faf5b07",
     "url": "/static/media/e_game_2.e4db5017.jpg"
+  },
+  {
+    "revision": "1a1579a26af36ad9d0a0e260774e566b",
+    "url": "/static/media/food-random.1a1579a2.png"
   },
   {
     "revision": "c8def4eefbcaa07dd7291577a7cc174e",
