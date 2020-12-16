@@ -30,7 +30,7 @@
   "skills": [
     {
       "title": "Web Development",
-      "detail": "React.js, React Native, Node.js, Django, Laravel, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
+      "detail": "React.js, React Native, Vue.js, Ruby on Rails, Node.js, Django, Laravel, HTML, CSS, JavaScript, jQuery, PHP, MySQL, MongoDB",
       "percent": 85,
       "code": "\f40e",
       "type": "regular"
@@ -96,12 +96,31 @@
   ],
   "projects": [
     {
+      "title": "Frontend Frameworks",
+      "subtitle": "Website",
+      "detail": "The todo applications in multiple frontend frameworks with a sharing state using Redux",
+      "image": "frontend-frameworks.png",
+      "links": {
+        "url": "https://p-siriphanthong.github.io/frontend-frameworks",
+        "github": "https://github.com/p-siriphanthong/frontend-frameworks"
+      }
+    },
+    {
+      "title": "Songfangklong Cruise",
+      "subtitle": "Website (Django)",
+      "detail": "Songfangklong Cruise restaurant's website",
+      "image": "songfangklong.jpg",
+      "links": {
+        "url": "https://www.songfangklongcruise.com"
+      }
+    },
+    {
       "title": "FoodRandom",
       "subtitle": "Website (React.js & Node.js & GraphQL & MongoDB)",
       "detail": "Have a hard time choosing what to eat? Use FoodRandom!",
       "image": "food-random.png",
       "links": {
-        "url": "https://food-random-cleverse.herokuapp.com/",
+        "url": "https://food-random-cleverse.herokuapp.com",
         "github": "https://github.com/p-siriphanthong/food-random"
       }
     },
@@ -118,7 +137,7 @@
       "detail": "The game to find the different characters in 60 seconds",
       "image": "spot-the-difference.png",
       "links": {
-        "url": "https://p-siriphanthong.github.io/spot-the-difference/",
+        "url": "https://p-siriphanthong.github.io/spot-the-difference",
         "github": "https://github.com/p-siriphanthong/spot-the-difference"
       }
     },
@@ -128,7 +147,7 @@
       "detail": "เกมหมากฮอส",
       "image": "thai-checkers-game.png",
       "links": {
-        "url": "https://p-siriphanthong.github.io/thai-checkers-game/",
+        "url": "https://p-siriphanthong.github.io/thai-checkers-game",
         "github": "https://github.com/p-siriphanthong/thai-checkers-game"
       }
     },
@@ -218,6 +237,16 @@
     }
   ],
   "gallery": [
+    {
+      "caption": "Drum Camp Special 2020 - Gospel & Fusion",
+      "src": "drum_camp.jpg",
+      "mode": "horizontal"
+    },
+    {
+      "caption": "Drum Camp Special 2020 - Gospel & Fusion",
+      "src": "drum_camp_2.jpg",
+      "mode": "normal"
+    },
     {
       "caption": "Seoul International Invention Fair 2019",
       "src": "siif.jpg",
