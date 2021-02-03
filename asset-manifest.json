@@ -1,6 +1,6 @@
 {
-  "main.js": "/static/js/main.df9b66ea.chunk.js",
-  "main.js.map": "/static/js/main.df9b66ea.chunk.js.map",
+  "main.js": "/static/js/main.b5d86c66.chunk.js",
+  "main.js.map": "/static/js/main.b5d86c66.chunk.js.map",
   "static/js/1.50f35a22.chunk.js": "/static/js/1.50f35a22.chunk.js",
   "static/js/1.50f35a22.chunk.js.map": "/static/js/1.50f35a22.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -15,6 +15,7 @@
   "static/media/image_restoration.png": "/static/media/image_restoration.b4a91fed.png",
   "static/media/mqtt.png": "/static/media/mqtt.4118cca4.png",
   "static/media/nyne.png": "/static/media/nyne.709167d5.png",
+  "static/media/ok-cooling-serum.png": "/static/media/ok-cooling-serum.9bdfa8f3.png",
   "static/media/propeller_clock.jpg": "/static/media/propeller_clock.be0b0b96.jpg",
   "static/media/simple_thai_ocr.png": "/static/media/simple_thai_ocr.2b86a3f3.png",
   "static/media/smart_othello_board.png": "/static/media/smart_othello_board.555da813.png",
@@ -51,6 +52,6 @@
   "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.cf4e4334.jpg",
   "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.6f3a0ed7.jpg",
   "index.html": "/index.html",
-  "precache-manifest.42a0500fbefd75721800010034b167d0.js": "/precache-manifest.42a0500fbefd75721800010034b167d0.js",
+  "precache-manifest.d4d90071b775837a66ba2513837e16f9.js": "/precache-manifest.d4d90071b775837a66ba2513837e16f9.js",
   "service-worker.js": "/service-worker.js"
 }

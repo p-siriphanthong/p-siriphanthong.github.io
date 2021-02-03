@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "df9b66eab7f3473985ca",
-    "url": "/static/js/main.df9b66ea.chunk.js"
+    "revision": "b5d86c66f186266aa852",
+    "url": "/static/js/main.b5d86c66.chunk.js"
   },
   {
     "revision": "50f35a22677f2e37fa1e",
@@ -50,6 +50,10 @@ self.__precacheManifest = [
   {
     "revision": "709167d5587f561d284c099a6496a9e3",
     "url": "/static/media/nyne.709167d5.png"
+  },
+  {
+    "revision": "9bdfa8f36b10d880c0e9b3277ff1c605",
+    "url": "/static/media/ok-cooling-serum.9bdfa8f3.png"
   },
   {
     "revision": "be0b0b968631e6cfa9625e999e62fa84",
@@ -192,7 +196,7 @@ self.__precacheManifest = [
     "url": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.6f3a0ed7.jpg"
   },
   {
-    "revision": "988eee62f3bbd0d16feedda024cd02b3",
+    "revision": "334df7f3326aa7d4ca199e4ab306ae6e",
     "url": "/index.html"
   }
 ];
