@@ -10,6 +10,7 @@ import {
   Github,
   Youtube,
   Medium,
+  Presentation,
   AppStore,
   GooglePlay
 } from '../text'
@@ -50,6 +51,9 @@ class Box extends Component {
         ) : null}
         {this.props.links.medium ? (
           <Medium href={this.props.links.medium} />
+        ) : null}
+        {this.props.links.presentation ? (
+          <Presentation href={this.props.links.presentation} />
         ) : null}
         {this.props.links.appstore ? (
           <AppStore href={this.props.links.appstore} />

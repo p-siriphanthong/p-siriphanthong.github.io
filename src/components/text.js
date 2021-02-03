@@ -67,6 +67,16 @@ const Medium = styled(Icon).attrs({
   }
 `
 
+const Presentation = styled(Icon).attrs({
+  title: 'Presentation'
+})`
+  font-family: 'Font Awesome Solid';
+
+  &:before {
+    content: '\f1c4';
+  }
+`
+
 const AppStore = styled(Icon).attrs({
   title: 'App Store'
 })`
@@ -96,6 +106,7 @@ export {
   Github,
   Youtube,
   Medium,
+  Presentation,
   AppStore,
   GooglePlay
 }

@@ -106,6 +106,15 @@
       }
     },
     {
+      "title": "OK Cooling Serum",
+      "subtitle": "Website (React.js & Django)",
+      "detail": "OK Cooling Serum's website",
+      "image": "ok-cooling-serum.png",
+      "links": {
+        "url": "http://www.cabbageserum.com"
+      }
+    },
+    {
       "title": "Songfangklong Cruise",
       "subtitle": "Website (Django)",
       "detail": "Songfangklong Cruise restaurant's website",
@@ -186,7 +195,8 @@
       "image": "simple_thai_ocr.png",
       "links": {
         "github": "https://github.com/p-siriphanthong/simple-thai-ocr",
-        "medium": "https://medium.com/@p.siriphanthong/thai-optical-character-recognition-thai-ocr-การแปลงรูปภาพเป็นข้อความ-fdeede331b6d"
+        "medium": "https://medium.com/@p.siriphanthong/thai-optical-character-recognition-thai-ocr-การแปลงรูปภาพเป็นข้อความ-fdeede331b6d",
+        "presentation": "https://docs.google.com/presentation/d/1XwKZPy5tLWCUe59V7Kd-Qmi1kbqZhCEYE_9KjfOQ9yI/edit?usp=sharing"
       }
     },
     {
