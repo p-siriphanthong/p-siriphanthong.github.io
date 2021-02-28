@@ -248,6 +248,11 @@
   ],
   "gallery": [
     {
+      "caption": "30 Days Challenge Season 2",
+      "src": "30_days_challenge_season_2.jpg",
+      "mode": "normal"
+    },
+    {
       "caption": "Drum Camp Special 2020 - Gospel & Fusion",
       "src": "drum_camp.jpg",
       "mode": "horizontal"
