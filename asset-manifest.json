@@ -1,6 +1,6 @@
 {
-  "main.js": "/static/js/main.b5d86c66.chunk.js",
-  "main.js.map": "/static/js/main.b5d86c66.chunk.js.map",
+  "main.js": "/static/js/main.1643b1d3.chunk.js",
+  "main.js.map": "/static/js/main.1643b1d3.chunk.js.map",
   "static/js/1.50f35a22.chunk.js": "/static/js/1.50f35a22.chunk.js",
   "static/js/1.50f35a22.chunk.js.map": "/static/js/1.50f35a22.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -24,6 +24,7 @@
   "static/media/tcas.png": "/static/media/tcas.9865d49f.png",
   "static/media/thai-checkers-game.png": "/static/media/thai-checkers-game.6d401357.png",
   "static/media/third_eye_for_blind.jpg": "/static/media/third_eye_for_blind.3bfe74bb.jpg",
+  "static/media/30_days_challenge_season_2.jpg": "/static/media/30_days_challenge_season_2.c362e794.jpg",
   "static/media/codehew.jpg": "/static/media/codehew.72efad5f.jpg",
   "static/media/comcamp.jpg": "/static/media/comcamp.1485e840.jpg",
   "static/media/cpe_rsa.jpg": "/static/media/cpe_rsa.c4161293.jpg",
@@ -52,6 +53,6 @@
   "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_2.cf4e4334.jpg",
   "static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.jpg": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.6f3a0ed7.jpg",
   "index.html": "/index.html",
-  "precache-manifest.d4d90071b775837a66ba2513837e16f9.js": "/precache-manifest.d4d90071b775837a66ba2513837e16f9.js",
+  "precache-manifest.b938568020618acdc9bcc28068c06661.js": "/precache-manifest.b938568020618acdc9bcc28068c06661.js",
   "service-worker.js": "/service-worker.js"
 }

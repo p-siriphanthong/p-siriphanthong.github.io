@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "b5d86c66f186266aa852",
-    "url": "/static/js/main.b5d86c66.chunk.js"
+    "revision": "1643b1d3d2c36aaee1b8",
+    "url": "/static/js/main.1643b1d3.chunk.js"
   },
   {
     "revision": "50f35a22677f2e37fa1e",
@@ -86,6 +86,10 @@ self.__precacheManifest = [
   {
     "revision": "3bfe74bb68fd783be129f2611a38acba",
     "url": "/static/media/third_eye_for_blind.3bfe74bb.jpg"
+  },
+  {
+    "revision": "c362e7948562da11c6e251fd64d7499c",
+    "url": "/static/media/30_days_challenge_season_2.c362e794.jpg"
   },
   {
     "revision": "72efad5fb18dbbb01c2abe09cda6ab93",
@@ -196,7 +200,7 @@ self.__precacheManifest = [
     "url": "/static/media/รับพระราชทานเหรียญรางวัลเรียนดี_3.6f3a0ed7.jpg"
   },
   {
-    "revision": "334df7f3326aa7d4ca199e4ab306ae6e",
+    "revision": "d4945bdf8de7de856f644b03874c8763",
     "url": "/index.html"
   }
 ];
