@@ -2,8 +2,13 @@
   "educations": ["CPE29@KMUTT", "ACU#4932", "YWC#17"],
   "workings": [
     {
+      "title": "LINE MAN Wongnai",
+      "duration": "Apr 2021 - Now",
+      "detail": "Full-Time: Software Engineer"
+    },
+    {
       "title": "Senna Labs Company Limited",
-      "duration": "Nov 2019 - Now",
+      "duration": "Nov 2019 - Mar 2021",
       "detail": "Full-Time: Full-Stack Developer"
     },
     {
