@@ -4,7 +4,7 @@
     {
       "title": "LINE MAN Wongnai",
       "duration": "Apr 2021 - Now",
-      "detail": "Full-Time: Software Engineer"
+      "detail": "Full-Time: Front-end Developer"
     },
     {
       "title": "Senna Labs Company Limited",
@@ -14,7 +14,7 @@
     {
       "title": "AppMan Co., Ltd.",
       "duration": "Jun 2019 - Oct 2019",
-      "detail": "Full-Time: Frontend Developer"
+      "detail": "Full-Time: Front-end Developer"
     },
     {
       "title": "Askforanywork",
@@ -101,9 +101,9 @@
   ],
   "projects": [
     {
-      "title": "Frontend Frameworks",
+      "title": "Front-end Frameworks",
       "subtitle": "Website",
-      "detail": "The todo applications in multiple frontend frameworks with a sharing state using Redux",
+      "detail": "The todo applications in multiple front-end frameworks with a sharing state using Redux",
       "image": "frontend-frameworks.png",
       "links": {
         "url": "https://p-siriphanthong.github.io/frontend-frameworks",
